@@ -25,18 +25,4 @@ public class Conexion {
         }
         return conexion;
     }
-
-    public static void main(String[] args) {
-
-        Connection conexion = Conexion.conectar();
-
-        if (conexion != null) {
-
-            System.out.println("Conectado");
-
-        } else {
-
-            System.out.println("Conexion No Exitosa");
-        }
-    }
 }

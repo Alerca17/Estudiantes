@@ -8,15 +8,16 @@ public class Estudiante {
     private String telefono;
     private String correo;
 
-    public Estudiante(String apellido, String correo, int idEstudiante, String nombre, String telefono) {
-        this.apellido = apellido;
-        this.correo = correo;
+    public Estudiante(int idEstudiante, String nombre, String apellido, String telefono, String correo) {
+
         this.idEstudiante = idEstudiante;
         this.nombre = nombre;
+        this.apellido = apellido;
         this.telefono = telefono;
+        this.correo = correo;
     }
 
-    public Estudiante(String apellido, String correo, String nombre, String telefono) {
+    public Estudiante(String nombre, String apellido, String telefono, String correo) {
         this.apellido = apellido;
         this.correo = correo;
         this.nombre = nombre;
